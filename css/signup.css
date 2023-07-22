@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body{
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4RBwFrbZT4NslBwm147YffqMRE67VeSWGb-Lgh713neDf0d9MPoT3LAfNR8YCYPKP22I&usqp=CAU.jpg) no-repeat center fixed;
+  background-image: linear-gradient(#054161,#12a2bf);
   background-size: cover;
 }
 
