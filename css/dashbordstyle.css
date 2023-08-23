@@ -9,7 +9,7 @@ font-family: "Poppins", sans-serif;
 }
 :root {
 --background-color1: #95c6d8;
---background-color2: #ae5dcb;
+--background-color2: #1504b3;
 --background-color3: #57337a;
 --background-color4: #144a6ca4;
 --primary-color: #4b49ac;
@@ -21,14 +21,14 @@ font-family: "Poppins", sans-serif;
 body {
 background-color: linear-gradient(#054161,#12a2bf);
 max-width: 100%;
-overflow-x: hidden;
+
 }
 
 header {
 height: 70px;
 width: 100vw;
 padding: 0 30px;
-background-color: rgb(184, 113, 212);
+background-color: rgb(2, 105, 202);
 position: fixed;
 z-index: 100;
 box-shadow: 1px 1px 15px rgb(238, 227, 242);
@@ -94,7 +94,7 @@ cursor: pointer;
 .dp {
 width: 40px;
 height: 40px;
-background-color: #626262;
+background-color: #ffffff;
 border-radius: 50%;
 display: flex;
 align-items: center;
@@ -163,7 +163,7 @@ background-color: var(--background-color2);
 position: absolute;
 top: 0px;
 left: 00;
-box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+box-shadow: 1px 1px 10px rgba(42, 10, 224, 0.825);
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -187,6 +187,7 @@ width: 0px;
 .nav-option {
 width: 250px;
 height: 60px;
+color: white;
 display: flex;
 align-items: center;
 padding: 0 30px 0 20px;
@@ -194,8 +195,8 @@ gap: 20px;
 transition: all 0.1s ease-in-out;
 }
 .nav-option:hover {
-border-left: 5px solid #a2a2a2;
-background-color: #dadada;
+border-left: 5px solid #1987e1;
+background-color: #503de5;
 cursor: pointer;
 }
 .nav-img {
@@ -210,7 +211,7 @@ gap: 30px;
 }
 
 .option1 {
-border-left: 5px solid #010058af;
+border-left: 5px solid #fbfbfbaf;
 background-color: var(--Border-color);
 color: white;
 cursor: pointer;
@@ -221,7 +222,7 @@ background-color: var(--Border-color);
 }
 
 .card {
-box-shadow: 0 4px 8px 0 rgba(11, 1, 1, 0.914);
+box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.914);
 max-width: 50%;
 margin-top: auto;
 margin-bottom: 30px;
@@ -235,7 +236,7 @@ width: 50%;
 margin-left: 25%;
 margin-bottom: 10px;
 border-radius: 20px;
-box-shadow: 3px 3px 10px rgba(17, 30, 53, 0.751);
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.751);
 padding: 20px;
 display: flex;
 align-items: center;
@@ -245,10 +246,14 @@ transition: transform 0.3s ease-in-out;
 }
 
 .box:hover {
+	
 transform: scale(1.08);
+
+transition-property: smooth;
 }
 
 .box:nth-child(1) {
+	
 background-color: var(--one-use-color);
 }
 
