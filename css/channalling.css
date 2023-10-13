@@ -216,7 +216,7 @@ margin-bottom: 50px;
 .category .box {
     border-radius: 2rem;
     border-color: #f1f1f1;
-    
+    text-decoration: none;
     background: rgb(139,198,236);
     background: linear-gradient(90deg, rgba(139,198,236,1) 0%, rgba(149,153,226,1) 100%);
     padding: 0.5rem 3rem;
@@ -365,3 +365,216 @@ input.mail_bt::placeholder {
 
 /* footer section end */
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar {
+    background-color: rgb(190, 246, 249);
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    margin-left: 20px;
+    width: 80px;
+  }
+  
+  .heading h1 {
+    color: #002974;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    display: flex;
+    margin-top: 10px;
+   
+  }
+  
+  .nav-links a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: double;
+    margin: 0 15px;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #015d8f;
+    background: none;
+    color: #073f5e;
+    cursor: pointer;
+  
+  }
+  
+  
+  .nav-links a:hover {
+    background: rgb(28, 60, 175);
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  text-decoration: none;
+  }
+  
+  
+  
+  .buttons {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .buttons button {
+    font-weight: bold;
+    border: 2px solid #e7f2f8;
+    background: rgb(146, 203, 235);
+    color: #073f5e;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons button:hover {
+    background: rgb(6, 39, 159);
+    color: #ffffff;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .heading {
+        order: 1;
+    }
+  
+    .nav-links {
+        margin-top: 10px;
+        order: 2;
+    }
+  .logo img {
+  margin-left: 0px;
+  }
+    .buttons {
+        margin-top: 20px;
+        order: 3;
+    }
+  
+    .heading h1 {
+     
+     
+      font-size: 24px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .bss{
+  padding: 20px;
+  }
+  .bs{
+  width:relative;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 3px solid #015d8f;
+  background: none;
+  color: #073f5e;
+  cursor: pointer;
+  position: right;
+  overflow: hidden;
+  
+  }
+  .bs:hover {
+  background: rgb(6, 39, 159);
+  color: #ffffff;
+  }
+  footer{
+    background-color: #111;
+    padding-right: 20px;
+   }
+   .footerContainer{
+       width: 100%;
+       padding: 70px 30px 20px;
+   }
+   .socialIcons{
+       display: flex;
+       justify-content: center;
+   }
+   .socialIcons a{
+       text-decoration: none;
+       padding: 10px;
+       background-color: #58d5ff;
+       margin: 10px;
+       border-radius: 50%;
+   }
+   .socialIcons a i{
+       font-size: 2em;
+       color: black;
+   }
+   .socialIcons a:hover{
+       background-color: #111;
+       transition: 0.5s;
+   }
+   .socialIcons a:hover i{
+       background-color: #131212;
+       transition: 0.5s;
+       color: rgb(255, 255, 255);
+   }
+   .footterNav{
+       margin: 30px 0;
+   }
+   .footterNav ul{
+       display: flex;
+       justify-content: center;
+       list-style-type: none;
+   }
+   
+   .footterNav ul li a{
+      color: #ffffff;
+      margin: 20px;
+      text-decoration: none;
+      font-size: 1.3em;
+      opacity: 0.7;
+      transition: 0.5s;
+   }
+   .footterNav ul li a:hover{
+       opacity: 1;
+   }
+   .footerBottom{
+       background-color: #000;
+       padding: 20px;
+       text-align: center;
+   }
+   .footerBottom p{
+       color: white;
+   }
+   .fottername{
+       opacity: 0.7;
+       letter-spacing: 1px;
+       text-transform: uppercase;
+       font-weight: 400;
+       color: #fff;
+       font-size: 15px;
+       font-weight: 400;
+       
+   }
